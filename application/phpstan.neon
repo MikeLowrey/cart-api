@@ -1,0 +1,12 @@
+parameters:
+  level: 6
+  paths:
+    - app/Helpers
+    - app/Http
+    - app/Facades
+    - app/Models
+    - app/Providers
+  ignoreErrors:
+    - '#Call to an undefined static method [a-zA-Z0-9\\_]+::#'
+    - '#Function belongsTo not found#'
+    - '#Access to an undefined property [a-zA-Z0-9\\_]+#'
